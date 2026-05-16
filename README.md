@@ -232,7 +232,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/samarthfunde/Flask-Based-Student-Registration-Application-with-CI-CD-Deployment.git'
+                git 'https://github.com/DJSACHIN9511/Flask-Based-Student-Registration-Application-with-CI-CD-Deployment.git'
             }
         }
         stage('Install Dependencies') {
@@ -334,4 +334,4 @@ README.md
 
 ## Author
 
-Samarth Funde
+Sachin Jaiswal
